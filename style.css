@@ -1,0 +1,20 @@
+body {
+    background-color: #dfe6e9;
+    height: 100%;
+}
+
+.right {
+    line-height: 1 !important;
+}
+
+.showcount {
+    display: inline !important;
+}
+
+#loding {
+    display: none;
+}
+
+.headding {
+    color: #636e72;
+}

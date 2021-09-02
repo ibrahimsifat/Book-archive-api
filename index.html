@@ -6,34 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Assignment</title>
+    <!-- bootstrap cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <style>
-        body {
-            background-color: #dfe6e9;
-            height: 100%;
-        }
-        
-        .right {
-            line-height: 0.4 !important;
-        }
-        
-        .showcount {
-            display: inline !important;
-        }
-        
-        #loding {
-            display: none;
-        }
-    </style>
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="container">
 
+    <!-- heading area  -->
+    <header class="my-5">
+        <div class="headding text-center fw-bold mb-4 ">
+            <h3>Search Your Favorite Book </h3>
 
-    <header class="">
-
-        <section id="input-area" class="container my-5 h-100 ">
+        </div>
+        <section id="input-area" class="container  h-100 ">
             <div class="input-group mb-3 w-75 mx-auto d-flex ">
                 <input id="inputFeild" type="text" class="form-control" placeholder="Search your favorite book" aria-label="Recipient's username" aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary" type="button" id="applyBtn">Button</button>
@@ -44,8 +31,9 @@
 
 
         </section>
+        <section class="mx-auto w-50" id="contant2"></section>
     </header>
-
+    <!-- main Contant area -->
     <main class="container">
         <section class="container w-75 mx-auto" id="contant">
             <div id="loding" class="text-center">
@@ -59,17 +47,7 @@
         </div>
     </main>
 
-    <script>
-    </script>
-
-
-
-
-
-
-
-
-
+    <!-- custom javascript link -->
     <script src="app.js"></script>
 </body>
 
