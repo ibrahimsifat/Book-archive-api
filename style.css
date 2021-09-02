@@ -4,7 +4,7 @@ body {
 }
 
 .right {
-    line-height: 1 !important;
+    line-height: 0.5 !important;
 }
 
 .showcount {
@@ -17,4 +17,14 @@ body {
 
 .headding {
     color: #636e72;
+}
+
+.tag {
+    font-weight: bold;
+    color: #2d3436;
+}
+
+.btn:focus,
+input[type=text]:focus {
+    box-shadow: none;
 }
