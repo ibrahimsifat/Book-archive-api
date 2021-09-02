@@ -43,7 +43,6 @@ const displayBook = bookData => {
     const bookArray = bookData.docs
         //gatting array one by one by forEach
     bookArray.forEach(book => {
-        console.log(book);
         const createDiv = document.createElement('div')
         createDiv.classList.add('card')
         createDiv.classList.add('mb-2')
